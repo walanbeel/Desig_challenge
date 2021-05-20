@@ -128,7 +128,18 @@ body{
 
 .header .links ul li :not(:last-child) a{
   border-bottom: 4px solid rgb(226, 205, 18);
- } 
+ }
+
+ .header .container .links hr {
+    width: 58.5em;
+    margin-bottom: -78px;
+    margin-left: -507px;
+    right: -242px;
+    display: inline-block;
+    background-color: #babac2;
+    color: yellow;
+  
+  } 
 /* End Header */
 
 /* Start Loading Section*/
@@ -140,6 +151,17 @@ body{
     position: relative;
 
 } */
+
+.loading .intro-text hr{
+    width: 58.5em;
+    margin-bottom: -19px;
+    margin-left: -198px;
+    /* left: -400px; */
+    display: inline-block;
+    background-color: #babac2;
+    color: yellow;
+}
+
 .loading .intro-text{
     position: absolute;
     left: 50%;
@@ -221,17 +243,29 @@ body{
 .features .container .card .circle{
     /* color:var(--main-color);
     font-size: 30px; */
-    position: relative;
+    /* position: relative;
     width: 100%;
     height: 100%;
     background-color: #2a2d2fd9;
     opacity: 0.8;
     clip-path: circle(84px at center 0);
     text-align: center;
-    color: #ffffff;
+    color: #ffffff; */
+    position: relative;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    margin-top: 129px;
+    margin-left: 49px;
+    bottom: 245px;
+    background-color: #161719de;
+
 }
 .features .container .card .circle i{
     font-size: 50px;
+    padding-top: 116px;
+    padding-left: 41px;
+    color: white;
 }
 .features .container .card .content h3{
    font-weight:800;
@@ -275,6 +309,19 @@ body{
    display: flex;
    margin-bottom: 40px;
 }
+
+.services .services-content .srv2{
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: -391px;
+ }
+
+ .services .services-content .srv3{
+    display: flex;
+    margin-top: -481px;
+    margin-left: 604px;
+  
+ }
 .services .services-content  h2{
     margin: -56px -1px 26px;
     color: #ffffff;
@@ -319,14 +366,39 @@ body{
        padding: 10px 20px;
         
      }
-     /* .services .services-content .srv  p{
-        color:#f1eaea;
+     .services .services-content .srv2 .text p{
+        color: #f1eaea;
         font-weight: 300;
         font-size: 14px;
         line-height: 1.6;
-        padding:20px;
+        padding-left: -133px;
+        padding-top: 20px;
+        margin-right: 366px;
          
-      } */
+      }
+
+      .services .services-content .srv3 .text3 ul li{
+        color: #f1eaea;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1.6;
+        padding-left: -133px;
+        padding-top: 12px;
+        margin-left: -180px;
+        /* left: -131px; */
+        list-style: none;
+         
+      }
+
+      .services .services-content .srv3 .text3 li::before {
+        content: "\f00c";
+        font-family: 'FontAwesome';
+        color: #efc734f0;
+        position: relative;
+        font-size: 12px;
+        left: -5px;
+        top: -2px;
+      }
      .services .services-content .image{
          text-align: center;
          position: relative;
@@ -342,8 +414,8 @@ body{
 
     }
 
-    .services .services-content .image2 img{
-        max-width:100%;
+    .services .services-content .srv2 .image2 img{
+        max-width:40%;
 
     }
 
@@ -490,3 +562,4 @@ body{
      
  }
 /*End Footer*/
+
